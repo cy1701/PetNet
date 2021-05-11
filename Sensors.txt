@@ -1,0 +1,3 @@
+4 - 3 wire load cells on the base used to (I think for main system weight)
+1 - 4 wire load cell in the pull out tray.
+
