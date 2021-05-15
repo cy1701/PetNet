@@ -1,0 +1,4 @@
+- ESP32 WeMos LOLIN32 controller (https://www.aliexpress.com/)
+- WeMos relay board (https://www.aliexpress.com/)
+- 2 - HX711 (https://smile.amazon.com/)
+- Bag of gears (https://smile.amazon.com/)
