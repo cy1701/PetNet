@@ -1,6 +1,6 @@
 # PetNet Feeder revival
 
-We picked up an abandoned PetNet feeder NIB from Ebay for $38 bucks. I am wanting to configure this to talk to home assistant and be able to utilize some of the sensors on unit.
+We picked up an abandoned PetNet feeder NIB from Ebay for $38 bucks. I am wanting to configure this to talk to [Home Assistant](https://www.home-assistant.io/) and be able to utilize some feature of unit. I will be using [ESPHome](https://esphome.io/) to program the ESP32 controller.
 
 
 ## Initial analysis
@@ -28,15 +28,13 @@ If we don't have rotation at the encoder, should we try to back the motor up? wi
 
 
 
+## What do you mean this POS is broken out of the box??? :rage:
+The first test I did was hook a 5-volt power supply up to the motor to see how much food will be dispensed per amount of time. The gearbox had a nasty grinding in it, and encoder wheel would suddenly stop. The motor will continue to run, and you can hear it but nothing was happening on the other end of the gearbox.
 
-
-
-
-## What do you mean this POS is broken out of the box. :rage:
-The first test I did was hook a 5-volt power supply up to the motor to see how much food will be dispensed per amount of time. The gearbox had a nasty grinding on it and went to suddenly stop. The matter will continue to run you can hear it but nothing was happening on the other end of the gearbox.
-
-Now this is right out of the box I have done nothing to damage anything as far as the drive mechanism. So, I tear down the gear assembly and the tiny year attached to the motor has a crack in it. You can see the little booger below.
+Now this is right out of the box, I have done nothing to damage anything in the drive mechanism. So, I tear down the gear assembly and the tiny year attached to the motor has a crack in it. You can see the little booger below.
 ![Bad Gear](./Images/bad-gear.png)
+
+
 
 ## Steps to Feeder Freedom
 
