@@ -39,3 +39,11 @@ Now this is right out of the box, I have done nothing to damage anything in the 
 ## Steps to Feeder Freedom
 
 I need to replace the LED in the button with a Neopixel from a strip of LEDs, as I don't feel like researching what LED they have in there.
+
+
+## Parts Needed
+
+- ESP32 WeMos LOLIN32 controller (https://www.aliexpress.com/)
+- WeMos relay board (https://www.aliexpress.com/)
+- 2 - HX711 [Amazon](https://smile.amazon.com/)
+- Bag of gears [Amazon](https://smile.amazon.com/)
