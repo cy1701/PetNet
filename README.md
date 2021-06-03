@@ -4,7 +4,7 @@ We picked up an abandoned PetNet feeder NIB from Ebay for $38 bucks. I am wantin
 
 
 ## Initial analysis
-So, we have a whole boatload of sensors here I mean this is like sensorama. 
+So, we have a whole boatload of sensors here. I mean this is like sensorama. 
 
 
 -	4 - 3 wire load cells on the base used to (I think for main system weight)
@@ -45,5 +45,25 @@ I need to replace the LED in the button with a Neopixel from a strip of LEDs, as
 
 - ESP32 WeMos LOLIN32 controller (https://www.aliexpress.com/)
 - WeMos relay board (https://www.aliexpress.com/)
-- 2 - HX711 [Amazon](https://smile.amazon.com/)
+- 2 - HX711 [Amazon](https://smile.amazon.com/SparkFun-Load-Cell-Amplifier-HX711)
 - Bag of gears [Amazon](https://smile.amazon.com/)
+
+## The Hookup
+
+
+
+
+
+
+
+
+
+## Referece sites
+- https://learn.sparkfun.com/tutorials/load-cell-amplifier-hx711-breakout-hookup-guide#combinator
+- https://predictabledesigns.com/introduction-to-load-cell-conditioning-circuits/
+
+
+
+
+## ESPHome
+- https://esphome.io/components/sensor/hx711.html
